@@ -15,13 +15,28 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </head>
-
 <body>
-    <!--Avatar Section Start-->
-    <header>
+   <div class="site-main-wrapper">
+    <div class="hamberger">
+        <button class="hamberger-button">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+    </div>
+    <div class="mobile-nav">
+        <button class="times">
+            <img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+    </div>
+<!--Avatar Section Start-->
+<header>
     <div id="home">
     <div class="container">
-        <nav class="flex items-center space-between">
+        <nav id="main-nav" class="flex items-center space-between">
             <div class="left flex items-centre items-center"> 
                 <div class="branding">
                 <img src="./images/marcologo2landscape.png" alt="">
@@ -43,7 +58,7 @@
             </div>
             <div class="right flex-1">
                 <h6>Marco Anjelo de Acosta</h6>
-                <h1>Web Devloper/<span>QA</span></h1>
+                <h1>Frontend<span> Developer</span></h1>
                     <div>
                        <a href="Resume_de Acosta.pdf" target="_blank"> <button class="btn btn-secondary">Download Resume</button></a>
                     </div>
@@ -149,7 +164,6 @@
                             <a href="https://github.com/itsyaboimacoy" target="_blank"><i class="fa-brands fa-square-github"></i></a>
                             <a href="https://t.me/marcoanjelo" target="_blank"><i class="fa-brands fa-telegram"></i></i></a>
                         </div>
-                        
                     </div>
                     <div class="contact-right">
                         <form>
@@ -167,7 +181,8 @@
       <p>Copyright © Marco Anjelo R. de Acosta made with Passion</p>
     </div>
     </section>
-
+   </div>
+<script src="./app.js"></script>
 </body>
 </html>
 
